@@ -1,10 +1,10 @@
 # Site settings
-title: 我说了算
+title: Myblog
 header-img: "img/green.jpg"
 tagline: "cn"  
 description: "郑桂杰"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://userjie.com"  
 
 # About/contact
 owner: 
