@@ -6,15 +6,9 @@ categories: Java语法基础
 tages: Java
 description: 
 ---
-
-
-
-
 ## abstract 关键字
-	
-
-	1.+ 适用范围(方法)
-		* 定义抽象类、抽象方法
+   1. 适用范围(方法)
+	 * 定义抽象类、抽象方法
 		[例]：
 		```
 		public abstract class AbstractDemo {
@@ -71,7 +65,7 @@ description:
 
 
 	4.+ 实例(代码参照《THINKING IN JAVA》)
-		```
+   ```
 		import java.util.*
 
 		abstract class Instrument4 {
@@ -112,7 +106,7 @@ description:
 			}
 			public void adjust() {}
 		}
-		```
+   ```
 
 
 
