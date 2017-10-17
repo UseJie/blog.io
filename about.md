@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "坚信自己坚信的，成为自己喜欢和讨厌的人。 "
+description: "坚信自己坚信的"
 header-img: "img/green.jpg"
 ---
 
@@ -20,7 +20,7 @@ header-img: "img/green.jpg"
 
 
 - 需承皇冠之重
-- 悲欢不能想通 
+- 悲欢不能相通 
 - 我们可以卑微如尘土，不可扭曲如蛆虫。
 - 有些事，只能一个人做。有些关，只能一个人过。有些路啊，只能一个人走。
 - 生如夏花之绚烂，死于秋叶之静美。
@@ -40,11 +40,3 @@ header-img: "img/green.jpg"
 ###联系
 
 - [博客：userjie.com](userjie.com)
-
-
-
-
-
-
-
-
