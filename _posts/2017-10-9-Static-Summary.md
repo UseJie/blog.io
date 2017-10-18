@@ -33,7 +33,7 @@ description:
 
 2. 静态变量在内存中的表示
 
-   ```
+```
 	  public class CreditCard {
 	  	private double maxOverdraft = 1000; //透支额度
 	  	//信用卡账户的属性，表示余额
@@ -58,7 +58,7 @@ description:
 	  		System.out.println("susses");
 	  	}
 	  }
-	  ```
+ ```
 
 3. 静态代码块示例
 
@@ -69,7 +69,9 @@ description:
 	  	}
 	  }
 ```
+
 4. 静态成员的初始化1.
+
 ```
 	  class Pint {
 	  	static int npoints;
