@@ -12,10 +12,12 @@ description:
 
 ## static关键字可以修饰方法、成员变量、成员常量、代码块。
 
-  **[注］：static不能修饰局部变量，具体原因可以从static的内存分配得以区别。**
+  **[注］：
+  * static不能修饰局部变量，具体原因可以从static的内存分配得以区别。
+  * 在Java虚拟机内部，第一次使用类时初始化该类中的所有静态变量，以后不再初始化。**
 
   1. 静态变量
-``` java
+  ``` java
 	class StaticDemo {
 		static int m;
 		int n;
@@ -27,13 +29,11 @@ description:
 			StaticDemo sd2 = new StaticDemo();
 		}
 	}
-```
-
-  **在Java虚拟机内部，第一次使用类时初始化该类中的所有静态变量，以后不再初始化。**
+  ```
 
   2. 静态变量在内存中的表示
 
-``` java
+  ``` java
 	public class CreditCard {
 	  	private double maxOverdraft = 1000; //透支额度
 	  	//信用卡账户的属性，表示余额
@@ -58,21 +58,21 @@ description:
 	  		System.out.println("susses");
 	  	}
 	  }
- ```
+   ```
 
   3. 静态代码块示例
 
-``` java
+  ``` java
 	  public class StaticBlock {
 	  	static {
 	  		System.out.println("静态代码块!");
 	  	}
 	  }
-```
+  ```
 
   4. 静态成员的初始化1
 
-``` java
+  ``` java
 	  class Pint {
 	  	static int npoints;
 	  	int x, y;
@@ -85,12 +85,12 @@ description:
 	  		System.out.println("p.x=" + p.x + ", p.y=" + p.y);
 	  		System.out.println("p.root=" + p.root);
 	  	}
-	  }
-```
+         }
+  ```
 
   5. 静态成员初始化2
 
-``` java
+  ``` java
 	  class Insect {
 	  	int i = 9;
 	  	int j;
@@ -120,7 +120,7 @@ description:
 	  		Beetle b = new Beetle();
 	  	}
 	  }
-``` 
+  ``` 
 
    > 值得注意的是本类的静态属性**maxOverdraft**，如果类CreditCard有zhang3和li4两个对象的话，那么**naxOverdraft**  是在该类的内存的公共区。
    > 静态属性占用的内存在公共区，它的改变影响到类的所有对象。这个特性也使得在类的内部定义的常量一般都做成静态的，可节约资源。
