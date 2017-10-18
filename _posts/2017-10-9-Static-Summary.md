@@ -10,13 +10,13 @@ description:
 
 # static作用描述
 
+  **[注］：**
+  * static不能修饰局部变量，具体原因可以从static的内存分配得以区别。
+  * 在Java虚拟机内部，第一次使用类时初始化该类中的所有静态变量，以后不再初始化。
+  
 ## static关键字可以修饰方法、成员变量、成员常量、代码块。
 
-  **[注］：
-  * static不能修饰局部变量，具体原因可以从static的内存分配得以区别。
-  * 在Java虚拟机内部，第一次使用类时初始化该类中的所有静态变量，以后不再初始化。**
-
-  1. 静态变量
+  * 静态变量
   ``` java
 	class StaticDemo {
 		static int m;
@@ -31,7 +31,7 @@ description:
 	}
   ```
 
-  2. 静态变量在内存中的表示
+ * 静态变量在内存中的表示
 
   ``` java
 	public class CreditCard {
@@ -60,7 +60,7 @@ description:
 	  }
    ```
 
-  3. 静态代码块示例
+  * 静态代码块示例
 
   ``` java
 	  public class StaticBlock {
@@ -70,7 +70,7 @@ description:
 	  }
   ```
 
-  4. 静态成员的初始化1
+  * 静态成员的初始化1
 
   ``` java
 	  class Pint {
@@ -88,7 +88,7 @@ description:
          }
   ```
 
-  5. 静态成员初始化2
+  * 静态成员初始化2
 
   ``` java
 	  class Insect {
@@ -125,7 +125,7 @@ description:
    > 值得注意的是本类的静态属性**maxOverdraft**，如果类CreditCard有zhang3和li4两个对象的话，那么**naxOverdraft**  是在该类的内存的公共区。
    > 静态属性占用的内存在公共区，它的改变影响到类的所有对象。这个特性也使得在类的内部定义的常量一般都做成静态的，可节约资源。
 
-  6. 在类外部访问某类中的静态变量（常量）的语法格式：
+  * 在类外部访问某类中的静态变量（常量）的语法格式：
      类名.成员变量（常量）
      例如：
      ` CrditCard.maxOverdraft;`
