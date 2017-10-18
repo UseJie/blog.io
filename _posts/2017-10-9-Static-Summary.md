@@ -128,7 +128,7 @@ description:
   6. 在类外部访问某类中的静态变量（常量）的语法格式：
      类名.成员变量（常量）
      例如：
-    ` CrditCard.maxOverdraft;`
+     ` CrditCard.maxOverdraft;`
    
 **[注]** : 
 
