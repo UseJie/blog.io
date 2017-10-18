@@ -70,7 +70,7 @@ description:
 	  }
 ```
 
-4. 静态成员的初始化1.
+4. 静态成员的初始化1
 
 ```
 	  class Pint {
@@ -88,7 +88,7 @@ description:
 	  }
 ```
 
-5. 静态成员初始化2.
+5. 静态成员初始化2
 
 ```
 	  class Insect {
