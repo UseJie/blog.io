@@ -8,7 +8,6 @@ description:
 ---
 
 ## static作用描述
-=======
 
 # static作用描述
 
@@ -19,6 +18,7 @@ description:
 ## static关键字可以修饰方法、成员变量、成员常量、代码块。
 
 * 静态变量
+
 ``` java
 class StaticDemo {
 	static int m;
