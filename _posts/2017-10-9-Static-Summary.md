@@ -15,9 +15,9 @@ description:
   * static不能修饰局部变量，具体原因可以从static的内存分配得以区别。
   * 在Java虚拟机内部，第一次使用类时初始化该类中的所有静态变量，以后不再初始化。
   
-## static关键字可以修饰方法、成员变量、成员常量、代码块。
+## static关键字可以修饰方法、类属性、常量、代码块
 
-* 静态变量
+* 静态属性
 
 ``` java
 class StaticDemo {
@@ -33,7 +33,7 @@ public class TestStaticDemo {
 }
 ```
 
-* 静态变量在内存中的表示
+* 静态属性在内存中的表示
 
 ``` java
 public class CreditCard {
@@ -129,7 +129,7 @@ public static void main(String[] args) {
 
 * 在类外部访问某类中的静态变量（常量）的语法格式：
 
-类名.成员变量（常量）
+类名.类属性（常量）
 
 例如：
 
