@@ -15,8 +15,7 @@ description:
 
 [例]：
 
-```
-
+``` java
 public abstract class AbstractDemo {
 	public abstract void g();
 	public abstract void f();
@@ -32,7 +31,7 @@ public abstract class AbstractDemo {
 
 	(1). 普通子类继承抽象父类:
 
-	```
+	``` java
 	public abstract class AbstractDemo {
 		public abstract void g();
 		public abstract void f();
@@ -47,7 +46,7 @@ public abstract class AbstractDemo {
 
 	(2). 使用抽象子类继承抽象父类：
 
-	```
+	``` java
 	public abstract class AbstractDemo {
 		public abstract void g();
 		public abstract void f();
@@ -81,9 +80,10 @@ public abstract class AbstractDemo {
 
 
 4. 实例(代码参照《THINKING IN JAVA》)
+	* 实现统一控制
 
-```
-	import java.util.*
+``` java
+	import java.*;
 
 	abstract class Instrument4 {
 		int i;//storage allocated for each
@@ -94,7 +94,7 @@ public abstract class AbstractDemo {
 		public abstract void adjust();
 	}
 
-	class Wind4 extends Instrumen4 {
+	class Wind4 extends Instrument4 {
 		public void play() {
 			System.out.println("Wind4.play()");
 		}
@@ -123,7 +123,54 @@ public abstract class AbstractDemo {
 		}
 		public void adjust() {}
 	}
+
+	class Bross4 extends Wind4 {
+		public void play() {
+			System.out.println("Bross.play()");
+		}
+		public void adjust() {
+			System.out.println("Bross4.objust()");
+		}
+	}
+
+	class Woodwind4 extends Wind4 {
+		public void play() {
+			System.out.println("Woodwind4.play()");
+		}
+		public String waht() {
+			return "Woodwind4";
+		}
+	}
+
+	public class Music4 {
+		static void tune(Instrument4 i) {
+			i.play();
+		}
+		static void tuneALL(Instrument4[] e) {
+			for(int i = 0; i < e.length; i++) {
+				tune(e[i]);
+			}
+		}
+		public static void main(String[] args) {
+			Instrument4[] orchestra = new Instrument4[5];
+			int i = 0;
+
+			orchestra[i++] = new Wind4();
+			orchestra[i++] = new Percussion4();
+			orchestra[i++] = new Stringed4();
+			orchestra[i++] = new Bross4();
+			orchestra[i++] = new Woodwind4();
+			tuneALL(orchestra);
+		}
+	}
 ```
+> 输出结果：
+>> Wind4.play()
+>> Percussion.play()
+>> Stringed4.play()
+>> Bross.play(()
+>> Woodwind4.play()
+>> MBP:JavaFile JIE$ 
 
 
 
