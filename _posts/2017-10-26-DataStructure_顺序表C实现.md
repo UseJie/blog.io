@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  C_DataStructure_顺序表实现
-date: 2017-10-26
+date: 2017-10-26git
 categories: C_DataStructure
 tages: 顺序表C语言实现
 description: 
@@ -15,6 +15,7 @@ description:
 	#define OVERERROR 1
 	#define status int 
 	#define MAXSIZE 100
+	```
 
     * 用C定义一个结构体 `SqList` 里面有表内容和表的长度。代码如下：
 
@@ -23,6 +24,7 @@ description:
     	ElemType *elem; //ElemType 是表类型，是预定义类型
     	int length;
     }SqList;
+    ```
 
     * 初始化顺序表的函数 InitList()，代码如下:
 
@@ -38,6 +40,7 @@ description:
     	L->length = 0;
     	return 0;
     }
+    ```
     ** 注：InitList()函数中的参数表不能是 `SqList &L` C语言没有这种用法，这是C＋＋的用法**
 
     * 往顺序表插入值的函数insertSqList()，代码如下：
@@ -62,6 +65,7 @@ description:
 		L->elem[i] = e;
     	return 0;
     } 
+    ```
 
     * 删除函数DeleteElem()，代码如下：
     ``` c
@@ -77,9 +81,9 @@ description:
 			}
 		}
 		L->length--;
-
     	return 0;
     }
+    ```
 
     * 取值函数GetElem()，代码如下:
     ``` c
@@ -91,6 +95,7 @@ description:
 		}
 		return L->elem[i - 1];
 	}
+	```
 
 	* 定位函数LocatedElem()，代码如下:
 	``` c
@@ -102,6 +107,7 @@ description:
 		//可以用快速排序实现，时间复杂度会有所下降
 		return 0;
 	}
+	```
 
 	＊ 为了方便写多一个打印顺序表函数PrintSqList()，如下：
 	``` c
@@ -111,6 +117,7 @@ description:
 			printf("L->elem[%d] = %d \n", i, L->elem[i]);
 		}
 	}
+	```
 
 	＊ 主函数是用来测试，代码如下：
 	``` c
@@ -150,3 +157,4 @@ description:
 		return 0; 
 		L.elem = NULL;//内存被释放要将将指针指向NULL
 	}
+	```
