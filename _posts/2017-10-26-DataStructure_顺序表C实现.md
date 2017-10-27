@@ -11,10 +11,10 @@ description:
 
 * 使用到的预定义如下:
 
-``` c
-#define ElemType int 
+```c
+#define ElemType int
 #define OVERERROR 1
-#define status int 
+#define status int
 #define MAXSIZE 100
 ```
 
