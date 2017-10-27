@@ -150,17 +150,3 @@ description:
 		return 0; 
 		L.elem = NULL;//内存被释放要将将指针指向NULL
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
