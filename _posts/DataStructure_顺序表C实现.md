@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  C_DataStructure_顺序表实现
-date: 2017-10-27
+date: 2017-10-26
 categories: C_DataStructure
 tages: 顺序表C语言实现
 description: 
