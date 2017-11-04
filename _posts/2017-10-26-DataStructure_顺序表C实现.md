@@ -7,14 +7,17 @@ tages: 顺序表C语言实现
 description: 
 ---
 
-## 顺序表描述
+##顺序表描述
 
 * 使用到的预定义如下:
 
 ```c
 #define ElemType int
+
 #define OVERERROR 1
+
 #define status int
+
 #define MAXSIZE 100
 ```
 
@@ -42,7 +45,7 @@ status InitList(SqList *L)
 	return 0;
 }
 ```
-** 注：InitList()函数中的参数表不能是 `SqList &L` C语言没有这种用法，这是C＋＋的用法**
+**注：InitList()函数中的参数表不能是 `SqList &L` C语言没有这种用法，这是C＋＋的用法**
 
 * 往顺序表插入值的函数insertSqList()，代码如下：
 ```c
