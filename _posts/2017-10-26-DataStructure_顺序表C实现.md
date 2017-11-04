@@ -156,6 +156,6 @@ int main(void)
 	L.elem = NULL;
 	free(L.elem);
 	return 0; 
-	L.elem = NULL;//内存被释放要将将指针指向NULL
+	L.elem = NULL; //内存被释放要将将指针指向NULL
 }
 ```
