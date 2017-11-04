@@ -11,10 +11,10 @@ description:
 
 * 使用到的预定义如下:
 ```c
-#define ElemType int
-#define OVERERROR 1
-#define status int
-#define MAXSIZE 100
+#define ElemType int 
+#define OVERERROR 1 
+#define status int 
+#define MAXSIZE 100 
 ```
 
 * 用C定义一个结构体 `SqList` 里面有表内容和表的长度。代码如下：
