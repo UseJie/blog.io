@@ -22,7 +22,6 @@ description:
 ```
 
 * 用C定义一个结构体 `SqList` 里面有表内容和表的长度。代码如下：
-
 ```c
 typedef struct SqList {
 	ElemType *elem; //ElemType 是表类型，是预定义类型
@@ -31,7 +30,6 @@ typedef struct SqList {
 ```
 
 * 初始化顺序表的函数 InitList()，代码如下:
-
 ```c
 status InitList(SqList *L)
 {
