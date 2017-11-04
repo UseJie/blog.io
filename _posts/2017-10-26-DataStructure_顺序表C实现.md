@@ -10,7 +10,6 @@ description:
 ##顺序表描述
 
 * 使用到的预定义如下:
-
 ```c
 #define ElemType int
 
