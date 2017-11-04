@@ -45,7 +45,7 @@ status InitList(SqList *L)
 	return 0;
 }
 ```
-**注：InitList()函数中的参数表不能是 `SqList &L` C语言没有这种用法，这是C＋＋的用法**
+**注:InitList()函数中的参数表不能是 `SqList &L` C语言没有这种用法，这是C＋＋的用法**
 
 * 往顺序表插入值的函数insertSqList()，代码如下：
 ```c
