@@ -97,6 +97,7 @@ class star {
 
 	}
 }
+```
 
 编译会通过，但是在执行的时候会报错，错误提示：
 >Exception in thread "main" java.lang.NullPointerException
@@ -123,6 +124,8 @@ class star {
 
 	}
 }
+```
+
 
 异常处理会在后续总结。
 
