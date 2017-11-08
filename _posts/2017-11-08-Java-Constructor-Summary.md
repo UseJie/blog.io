@@ -26,6 +26,7 @@ description:
 观察两个方法中i的输出情况
 
 ```java
+
 public class TestDemo1 {
 	public void m1(int i) {
 		i++;
@@ -37,6 +38,7 @@ public class TestDemo1 {
 		System.out.println("main---->" + i);
 	}
 }
+```
 
 运行结果：
 >m1---->11
@@ -51,6 +53,7 @@ public class TestDemo1 {
 同样的，观察两个方法中i的输出情况
 
 ```java
+
 public class TestDemo2 {
 	public static void m1(Animal a) {
 		a.age++;
@@ -69,6 +72,7 @@ class Animal {
 		age = i;
 	}
 }
+```
 
 输出结果
 >m1--->11
@@ -84,6 +88,7 @@ class Animal {
 造成的原因，如下例子:
 
 ```java
+
 public class NullExceptionDemo {
 	public static void main(String[] args) {
 		star s = new star();
@@ -107,6 +112,7 @@ class star {
 我们可以通过异常处理`try{}catch(){}`来捕获异常。在上述代码中进行修改
 
 ```java
+
 public class NullExceptionDemo {
 	public static void main(String[] args) {
 		try{
