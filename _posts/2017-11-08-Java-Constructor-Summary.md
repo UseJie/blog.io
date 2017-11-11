@@ -50,7 +50,7 @@ public class TestDemo1 {
 
 至于为什么会出现这样的结果，来看一张图片
 
- ![](![](https://github.com/Usejie/usejie.github.io/raw/master/img/Java基本数据类型.png))
+ ![](![](https://github.com/Usejie/usejie.github.io/raw/master/img/Java基本数据类型.png)
 
 可以理解为main()中的i与m1()中i两个不同的数就可以了，可以将i理解成C语言中函数的形参。
 
