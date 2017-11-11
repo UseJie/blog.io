@@ -9,7 +9,7 @@ description:
 
 ##Java虚拟机内存如下图1
 
-![Java_JVM](../img/Java_Constructor_Memory.png)
+![Java_JVM](https://github.com/Usejie/usejie.github.io/raw/master/img/Java_Constructor_Memory.png)
 
 
 
@@ -50,7 +50,7 @@ public class TestDemo1 {
 
 至于为什么会出现这样的结果，来看一张图片
 
- <https://github.com/UseJie/usejie.github.io/blob/master/img/Java%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png>
+ ![](![](https://github.com/Usejie/usejie.github.io/raw/master/img/Java基本数据类型.png))
 
 可以理解为main()中的i与m1()中i两个不同的数就可以了，可以将i理解成C语言中函数的形参。
 
@@ -86,7 +86,8 @@ class Animal {
 
 可以通过下图来理解输出的两个值为何相同
 
-![Java_引用数据类型](https://github.com/UseJie/usejie.github.io/blob/master/img/Java%E6%95%B0%E6%8D%AE%E6%98%AF%E5%BC%95%E7%94%A8%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
+![Java_引用数据类型](https://github.com/Usejie/usejie.github.io/raw/master/img/Java数据是引用数据类型.png)
+
 可以看出m1()和main()共享Animal中的数据。
 
 ##空指针
