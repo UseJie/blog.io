@@ -9,6 +9,10 @@ description:
 
 ##Java虚拟机内存如下图1
 
+![Java_JVM](../img/Java_Constructor_Memory.png)
+
+
+
 * 堆区：存放`new`出来的**对象**，此时对象有垃圾收集器收集（垃圾收集器针对的就是堆区）。如果堆中对象没有更多的引用指向它，则改对象变成了垃圾，等待垃圾收集器回收。
 
 * 栈区：每调用一个方法，会创建一个栈帧，存放方法的**局部变量**。
@@ -82,6 +86,7 @@ class Animal {
 
 可以通过下图来理解输出的两个值为何相同
 
+![Java_引用数据类型](https://github.com/UseJie/usejie.github.io/blob/master/img/Java%E6%95%B0%E6%8D%AE%E6%98%AF%E5%BC%95%E7%94%A8%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
 可以看出m1()和main()共享Animal中的数据。
 
 ##空指针
