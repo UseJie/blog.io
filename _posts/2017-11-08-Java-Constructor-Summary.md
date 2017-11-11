@@ -46,6 +46,8 @@ public class TestDemo1 {
 
 至于为什么会出现这样的结果，来看一张图片
 
+ ![Java_基本数据类型](https://github.com/UseJie/usejie.github.io/blob/master/img/Java%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
+
 可以理解为main()中的i与m1()中i两个不同的数就可以了，可以将i理解成C语言中函数的形参。
 
 * 传递的数据是引用数据类型
