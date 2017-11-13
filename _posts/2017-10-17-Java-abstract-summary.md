@@ -15,11 +15,11 @@ description:
 
 [例]：
 
-``` java
-public abstract class AbstractDemo {
-	public abstract void g();
-	public abstract void f();
-}
+```java
+	public abstract class AbstractDemo {
+		public abstract void g();
+		public abstract void f();
+	}
 ```
 
 **[注]**：
@@ -31,7 +31,7 @@ public abstract class AbstractDemo {
 
 	(1). 普通子类继承抽象父类:
 
-	``` java
+	```java
 	public abstract class AbstractDemo {
 		public abstract void g();
 		public abstract void f();
@@ -46,7 +46,7 @@ public abstract class AbstractDemo {
 
 	(2). 使用抽象子类继承抽象父类：
 
-	``` java
+	```java
 	public abstract class AbstractDemo {
 		public abstract void g();
 		public abstract void f();
@@ -82,7 +82,7 @@ public abstract class AbstractDemo {
 4. 实例(代码参照《THINKING IN JAVA》)
 	* 实现统一控制
 
-``` java
+```java
 	import java.*;
 
 	abstract class Instrument4 {
@@ -170,19 +170,3 @@ public abstract class AbstractDemo {
 >> Stringed4.play()
 >> Bross.play()
 >> Woodwind4.play()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
