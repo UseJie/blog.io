@@ -7,11 +7,11 @@ tages: Java
 description: 
 ---
 
-##abstract 关键字
 
+##abstract 关键字
 1. 适用范围(方法)
 
- * 定义抽象类、抽象方法
+  * 定义抽象类、抽象方法
 
 [例]：
 
@@ -21,12 +21,6 @@ description:
 		public abstract void f();
 	}
 ```
-
-**[注]:**
-
-	1). abstract 方法只能定义在抽象类中。
-	
-	2). 抽象方法不用实现实际的方法体。
 
 * 继承抽象类：
 
