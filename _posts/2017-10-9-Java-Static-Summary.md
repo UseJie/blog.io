@@ -3,7 +3,7 @@ layout: post
 title: Java_static关键字学习总结
 date: 2017-10-9
 categories: Java语法基础
-tags: Java
+tags: [Java]
 description: 
 ---
 

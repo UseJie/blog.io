@@ -2,8 +2,8 @@
 layout: post
 title:  Java_Constructor_Memory_构造方法_空指针_方法调用时参数传递
 date: 2017-11-08
-categories: Java_Constructor
-tages: JVM内存分析
+categories: JVM内存分析
+tages: [Java]
 description: 
 ---
 

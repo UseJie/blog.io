@@ -3,7 +3,7 @@ layout: post
 title:  Java_abstract关键字学习总结
 date: 2017-10-17
 categories: Java语法基础
-tages: Java
+tages: [Java]
 description: 
 ---
 
