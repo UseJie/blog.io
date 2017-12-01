@@ -41,3 +41,8 @@ header-img: "img/green.jpg"
 ###联系
 
 - [博客：userjie.com](userjie.com)
+
+- zhengguijie1119@outlook.com
+- zhengguijie1119@qq.com
+- guijiezheng1119@gmail.com
+
