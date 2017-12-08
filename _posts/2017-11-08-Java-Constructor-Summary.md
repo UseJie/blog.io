@@ -7,7 +7,7 @@ tages: [Java]
 description: 
 ---
 
-##Java虚拟机内存如下图1
+## Java虚拟机内存如下图1
 
 ![Java_JVM](https://github.com/Usejie/usejie.github.io/raw/master/img/Java_Constructor_Memory.png)
 
@@ -19,7 +19,7 @@ description:
 
 * 方法区：类的所有信息，包括所有的方法，**静态变量、常量**。
 
-##程序执行过程中参数传递问题
+## 程序执行过程中参数传递问题
 
 1. 基本数据类型
 2. 传递的数据是引用数据类型
