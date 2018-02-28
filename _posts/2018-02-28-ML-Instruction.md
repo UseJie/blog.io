@@ -53,8 +53,8 @@ description:
     (x^(i),y^(i)) --- i^th traning example.
 
 ```flow
-st=>start: Start|past:>http://www.google.com[blank]
-e=>end: End:>http://www.google.com
+st=>start: Start
+e=>end: End
 op1=>operation: My Operation|past
 op2=>operation: Stuff|current
 sub1=>subroutine: My Subroutine|invalid
