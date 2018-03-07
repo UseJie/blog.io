@@ -25,7 +25,7 @@ description:
   - Unsupervised learning 非（无）监督学习
   这是最常用的两大类
 
-  -Others: Reinforcenment learning, recommender system.
+  - Others: Reinforcenment learning, recommender system.
 
 ### Supervised Learning:
  1. 分类问题
@@ -53,7 +53,9 @@ description:
     (x^(i),y^(i)) --- i^th traning example.
 
 ```flow
+
 st=>start: Start
+
 e=>end: End
 op1=>operation: My Operation|past
 op2=>operation: Stuff|current
@@ -69,3 +71,19 @@ cond(no)->sub1(left)->op1
 c2(yes)->io->e
 c2(no)->op2->e
 ```
+
+graph LR
+    subgraph 例子
+    B-->B1[箭头]
+    C---C1[无箭头]
+    D-->|文字|D1[文字]
+    E-.->E1[虚线]
+    F==>F1[粗线]
+    end
+    subgraph 传递的方式
+    A[分类]
+    A-->A1[有无箭头]
+    A-->A2[有无文字]
+    A-->A3[线的形状]
+    end
+    
