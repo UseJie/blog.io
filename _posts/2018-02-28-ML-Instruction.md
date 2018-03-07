@@ -52,6 +52,7 @@ description:
     
     (x^(i),y^(i)) --- i^th traning example.
 
+<<<<<<< HEAD
 ```flow
 
 st=>start: Start
@@ -87,3 +88,6 @@ graph LR
     A-->A3[线的形状]
     end
     
+=======
+
+>>>>>>> 5616b4e7c359578cd26f6a0de6c841a94eb0756b
