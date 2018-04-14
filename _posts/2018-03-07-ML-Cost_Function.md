@@ -15,9 +15,9 @@ description:
 
 ## 轮廓图(contour plot 或 contour figure)
 
->> Hypothesis:
+> Hypothesis:
 
-<math xmlns="http://www.w3.org/1998/Math/MathML">
+> <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mi>J</mi>
   <mo stretchy="false">(</mo>
   <msub>
@@ -123,10 +123,11 @@ description:
       </msup>
     </mstyle>
   </mstyle>
-</math>
->> Parameters:
->> Cost Founction:
->> Goal:
+> </math>
+
+> Parameters:
+> Cost Founction:
+> Goal:
 
 
 ### 
