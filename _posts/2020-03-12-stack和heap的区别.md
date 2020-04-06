@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Collect
+title:  stack and heap
 date: 2020-03-12
 categories:  Collect
 tages: [Collect]
